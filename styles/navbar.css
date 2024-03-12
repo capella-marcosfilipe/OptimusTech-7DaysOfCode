@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.15rem 0;
+}
+
+.navbar__logo {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbar__logo__img {
+  width: 27px;
+  height: 27px;
+}
+
+.navbar__logo__text {
+  font-size: 1.12rem;
+}
+
+.navbar__paginas {
+  display: flex;
+  justify-content: space-around;
+  color: var(--cinza);
+  gap: 2rem;
+}
+
+.navbar__pagina__link {
+  text-decoration: none;
+  color: var(--cinza);
+}
+
+.navbar__login__link {
+  text-decoration: none;
+  color: var(--cinza);
+  padding: 0.6rem 1.15rem;
+}
+
+.navbar__login__cadastrar {
+  background-color: var(--vermelho);
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+}

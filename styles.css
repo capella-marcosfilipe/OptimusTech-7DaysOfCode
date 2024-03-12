@@ -1,0 +1,14 @@
+@import url("/styles/navbar.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+:root {
+  --fonte-principal: "Inter", sans-serif;
+  --vermelho: #8e2424;
+  --cinza: #667085;
+}
+
+body {
+  font-family: var(--fonte-principal);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
