@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem 34rem;
+}
+
+.header__aboutus {
+  color: var(--vermelho);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.header__title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.header__description {
+  font-size: 1.25rem;
+  color: var(--cinza);
+  text-align: center;
+  line-height: 1.88rem;
+}
