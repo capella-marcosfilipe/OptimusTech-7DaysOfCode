@@ -21,25 +21,25 @@
   font-size: 1.12rem;
 }
 
-.navbar__paginas {
+.navbar__pages {
   display: flex;
   justify-content: space-around;
   color: var(--cinza);
   gap: 2rem;
 }
 
-.navbar__pagina__link {
+.navbar__pages__link {
   text-decoration: none;
   color: var(--cinza);
 }
 
-.navbar__login__link {
+.navbar__buttons__login {
   text-decoration: none;
   color: var(--cinza);
   padding: 0.6rem 1.15rem;
 }
 
-.navbar__login__cadastrar {
+.navbar__buttons__register {
   background-color: var(--vermelho);
   color: white;
   padding: 10px 18px;
