@@ -1,0 +1,33 @@
+.vagas-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0% 5%;
+}
+
+.vagas-header__call {
+  background-color: rgba(255, 0, 0, 0.05);
+  border-radius: 16px;
+  padding: 0.25rem 0.75rem;
+
+  color: var(--vermelho);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.vagas-header__title {
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.vagas-header__description {
+  font-size: 1.25rem;
+  color: var(--cinza);
+}
+
+.vagas-header__img {
+  width: 95%;
+  margin: 4rem 0;
+}

@@ -1,33 +1,38 @@
-.vagas-header {
+.vagas-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 0% 5%;
+  padding: 0 20%;
 }
 
-.vagas-header__call {
-  background-color: rgba(255, 0, 0, 0.05);
-  border-radius: 16px;
-  padding: 0.25rem 0.75rem;
-
-  color: var(--vermelho);
-  font-size: 0.9rem;
-  font-weight: 600;
-}
-
-.vagas-header__title {
-  font-size: 2.25rem;
-  font-weight: 600;
-  margin-top: 1rem;
-  margin-bottom: 1.25rem;
-}
-
-.vagas-header__description {
+.vagas-container__title {
   font-size: 1.25rem;
-  color: var(--cinza);
+  font-weight: 600;
+  margin: 2rem 0;
 }
 
-.vagas-header__img {
-  width: 95%;
-  margin: 4rem 0;
+.vagas-container__vaga {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+
+  border: 1px solid var(--cinza-claro);
+  border-radius: 16px;
+
+  padding: 1.5rem 1.5rem 1.75rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.vagas-container__vaga__title {
+  font-size: 1.12rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.vagas-container__vaga__description {
+  display: flex;
+  padding: 0.5rem 0;
+  gap: 2rem;
+
+  font-size: 1rem;
+  color: var(--cinza);
 }
