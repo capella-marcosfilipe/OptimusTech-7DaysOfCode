@@ -4,6 +4,7 @@
 @import url("/styles/vagas-header.css");
 @import url("/styles/vagas.css");
 @import url("/styles/depoimentos.css");
+@import url("/styles/footer.css");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 
 :root {
@@ -11,6 +12,7 @@
   --vermelho: #8e2424;
   --cinza: #667085;
   --cinza-claro: #eaecf0;
+  --cinza-footer: #f9fafb;
   --preto: #101828;
 }
 

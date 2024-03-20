@@ -1,0 +1,54 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--cinza-footer);
+  padding: 6rem 20%;
+}
+
+.rodape__title {
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+}
+
+.rodape__description {
+  font-size: 1.25rem;
+  color: var(--cinza);
+}
+
+.rodape__input-container {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0 2rem 0;
+}
+
+.rodape__input {
+  width: 25vw;
+  height: 2.5vw;
+  border-radius: 8px;
+  border-color: var(--cinza-claro);
+}
+
+.rodape__input::placeholder {
+  font-family: var(--fonte-principal);
+  color: var(--cinza);
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+}
+
+.rodape__button {
+  font-family: var(--fonte-principal);
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
+  background-color: var(--vermelho);
+}
+
+.rodape__copy {
+  color: var(--cinza);
+  font-size: 1rem;
+  margin-top: 1rem;
+}
